@@ -1,0 +1,1 @@
+INSERT INTO users(username,password,name,email,active) VALUES('dyana','pass','dyana','@dyana',1);INSERT INTO users(username,password,name,email,active) VALUES('barth','pass','barth','@barth',1);INSERT INTO roles(name) VALUES('USER');INSERT INTO roles(name) VALUES('ADMIN');INSERT INTO user_role(user_id,role_id) VALUES(1,1);INSERT INTO user_role(user_id,role_id) VALUES(2,2);
